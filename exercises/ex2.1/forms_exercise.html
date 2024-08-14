@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        input{
+            outline: none;
+            outline-width: 0 ;
+            outline-color: transparent;
+        }
+        .type1{
+            width: fit-content;
+            height: fit-content;
+            outline-color: transparent;
+             
+        }
+            
+            
+
+        
+        .type2{
+            width: fit-content;
+            height: fit-content;
+            outline: none;
+            outline-color: transparent;
+        }
+        .text_box{
+            width: fit-content;
+            height: fit-content;
+            outline: none;
+        }
+    </style>
+    
+</head>
+<body>
+    <h3>Create an Account</h3>
+    <form action="#" >
+        <fieldset class = "type1">
+            <legend>Email</legend>
+            <label for="Email"></label>
+            <input type="text" name="Email">
+        </fieldset>
+
+        <fieldset class = "type1">
+            <legend>Password</legend>
+            <label for="password"></label>
+            <input type="password" name="password">
+        </fieldset>
+
+        
+        <fieldset class = "type1" >
+            <legend>Age</legend>
+            <label for="Age"></label>
+            <input type="number" min="5" max = "120" name="Age" >
+        </fieldset>
+
+        
+        <fieldset class = "type2">
+            <legend>Tell us about yourself</legend>
+            <label for="text_box"id = text_box1></label>
+            <input type="text" name="text_box" id="text_box">
+
+        </fieldset>
+
+      <fieldset class = "type1" >
+        <label for="checkbox">I agree to terms and conditions</label>
+        <input type="checkbox" id="terms_checkbox">
+      </fieldset>
+      <fieldset class = "type1" >
+        <label for="button1" ></label>
+        <button type="button" id="terms_checkbox" class = "type1" >Sign up</button>
+      </fieldset>
+    </form>
+    
+
+
+</body>
+
+<style>
+        .text_box{
+            width : "500px"; 
+            height : "200px";
+        }
+        
+        </style>
+
+
+
+</html>
